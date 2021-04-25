@@ -1,2 +1,4 @@
 # ema_preprocessing
-Code to preprocess articulography 3D data
+A collection of wrapper scripts as well as some helper functions build around the software package developed by Phil Hoole to preprocess 3D articulatory movement data. For the software package see https://www.phonetik.uni-muenchen.de/~hoole/articmanual/index.html
+
+The main advantage of the scripts is the automation of the data filtering pipeline which allows batch processing. All settings required for individual speakers are either predefined or extracted automatically during the processing process which eliminates the need for manual adjustments and allows to reduce processing time for each subject by approximately 65-75%.
